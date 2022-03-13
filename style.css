@@ -1,0 +1,217 @@
+/* html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+} */
+
+.social-media a{
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.container{
+    align-items: center;
+    display:grid;
+    grid-template-columns: auto auto auto;
+      padding: 10px;
+}
+
+.container input{
+      background: linear-gradient(grey, rgb(83, 82, 82));
+      border-right: 1px solid rgba(0, 0, 0, .3);
+      color: white;
+      padding: 10px 15px;
+}
+
+.container img {
+    padding-left: 200px;
+}
+
+.navigation li {
+      display: inline-block;
+}
+
+.navigation{
+    padding-left: 180px;
+}
+
+.navigation a {
+      background: #395870;
+      background: linear-gradient(#49708f, #293f50);
+      border: 1px solid rgba(0, 0, 0, .3);
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;
+}
+
+.navigation a:hover {
+      background: #314b60;
+}
+
+iframe {
+	width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    display: block;
+    border-style:none;
+}
+
+    .title1{
+            font-family: Helvetica;
+            font-size: 22px;
+            padding-left: 90px;
+            font-weight: bold;
+            color:#08973f;
+    }
+
+
+
+.title{
+            font-family: Helvetica;
+            font-size: 36px;
+            padding-left: 110px;
+            font-weight: bold;
+            color: rgb(19, 19, 19);
+        }
+
+        #line{
+            border-bottom: 2px solid;
+            width: 385px;
+            margin-left: 110px;   
+        }
+
+        .title2{ 
+			font-family: Helvetica;
+            color:#08973f;
+            font-size: 22px;
+            line-height: 1; 
+            padding-left: 110px;
+            font-weight: bold;
+        }
+
+        .p1{
+            font-family: 'Montserrat';
+            color: #5C5C5C;
+            font-size: 18px;
+            line-height: 1;
+            padding-left: 110px;
+        }
+
+#para{
+    font-family: lucida sans unicode;
+    color: #313131;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+}
+
+#find{
+    text-align: center;
+
+}
+
+#find a {background: #395870;
+      background: linear-gradient(#49708f, #293f50);
+      border: 1px solid rgba(0, 0, 0, .3);
+      color: #fff;
+      padding: 12px 20px;
+      text-decoration: none;}
+
+#find a:hover {
+      background: #314b60;
+}
+
+
+ /* Start of Register page */
+
+ 
+    .form-container{
+        width: 100%;
+        height: 500px;
+    }
+
+    .form{
+        width: 30%;
+        height: 50%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #314b60;
+        color: #fafcfb;
+        border-radius: 20px;
+
+    }
+
+    
+
+    
+
+    .login-button
+    {
+        float:right;
+        margin-right:20px;
+        background-color: aqua;
+
+    }
+
+
+
+    /* end of Register page */
+
+
+
+
+  /* end of Register Page  */
+
+
+
+
+
+/* Start of Styling Footer    */
+
+.footer{
+    height:  140px;  /*controlling height of the footer   */
+    width: 100%;        /*controlling width of the footer   */
+    background-color: #314b60;
+    
+     /*controlling background-color  */
+}
+
+.social-media{
+    width: 50%;      
+    margin-left: auto;  
+                             /*make inside division to make it in the center margin auto for both sides   */
+    margin-right: auto;
+}
+
+.center-icons
+{
+    width: 25%;
+    margin-left: auto;
+                            /*make inside division to make it in the center margin auto for both sides   */
+    margin-right: auto;
+}
+
+
+.footer p
+{
+    text-align: center;   /* centering text  */
+    color: rgb(248, 247, 247);
+}
+
+
+
+.footer img {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}
+
+
+/* End fo Styling Footer  */
